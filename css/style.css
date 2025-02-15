@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 .menu {
@@ -19,15 +20,24 @@ ul {
 
 .menu ul {
     display: flex;
-    gap: 40px;
-    padding-right: 40px;
+    gap: 35px;
+    padding-right: 50px;
+}
+
+.dot {
+    width: 7px;
+    height: 7px;
+    background-color: #FFD700;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 10px;
 }
 
 .menu li a {
     text-decoration: none;
     color: #fff;
-    font-family: 'Poppins', sans-serif;
     font-size: 18px;
+    font-weight: 400;
 }
 
 .banner-content {
@@ -62,10 +72,39 @@ ul {
     font-size: 18px;
     margin-left: 225px;
     margin-top: 400px;
-    padding: 7px 45px;
+    padding: 7px 60px;
     background-color: #FFD700;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 32px;
     font-weight: 400;
     border-radius: 10px;
+}
+
+.banner-information {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    background-color: #454545;
+    height: 140px;
+    width: 600px;
+    border-radius: 10px;
+}
+
+.banner-information h2 {
+    color: #E65100;
+    font-size: 36px;
+}
+
+.banner-information p {
+    color: #B4B4B4;
+    font-size: 13px;
+}
+
+.banner-information .alunos {
+    margin-left: 30px;
+}
+
+.banner-information .anos {
+    margin-right: 30px;
 }

@@ -40,25 +40,30 @@ ul {
     font-weight: 400;
 }
 
+.banner {
+    display: flex;
+    flex-direction: column;
+}
+
 .banner-content {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     background-color: #212121;
     height: 603px;
+    position: relative;
 }
 
 .banner-content h1 {
     margin-left: 200px;
     position: absolute;
-    top: 130px;
+    top: 50px;
     left: 20px;
     color: #fff;
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
     font-size: 72px;
     text-transform: uppercase;
-
 }
 
 .banner-content img {
@@ -86,25 +91,76 @@ ul {
     display: flex;
     flex-direction: row;
     background-color: #454545;
-    height: 140px;
+    height: 150px;
     width: 600px;
     border-radius: 10px;
+    position: absolute;
+    top: 615px;
+    margin-left: 220px;
 }
 
 .banner-information h2 {
-    color: #E65100;
+    color: #FF9100;
     font-size: 36px;
+    text-align: center;
+    font-weight: 400;
 }
 
 .banner-information p {
     color: #B4B4B4;
     font-size: 13px;
+    text-align: center;
 }
 
 .banner-information .alunos {
-    margin-left: 30px;
+    margin-left: 40px;
 }
 
 .banner-information .anos {
-    margin-right: 30px;
+    margin-right: 40px;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    margin-top: 170px;
+    margin-left: 200px;
+}
+
+.sobre h2 {
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.sobre h1 {
+    font-size: 48px;
+    padding-top: 15px;
+}
+
+.sobre h3 {
+    padding-top: 15px;
+    font-size: 28px;
+    color: #E65100;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.sobre span {
+    color: #E65100;
+}
+
+.sobre p {
+    display: flex;
+    flex-direction: column;
+    margin-left: 730px;
+    margin-top: -250px;
+    margin-right: 200px;
+    font-size: 16px;
+}
+
+.img-sobre {
+    padding-top: 100px;
+    width: 1500px;
+    height: 100%;
 }

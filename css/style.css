@@ -182,7 +182,7 @@ ul {
 
     h3 {
         text-align: center;
-        margin-top: 25px;
+        margin-top: 20px;
         color: #E65100;
         font-size: 20px;
         font-weight: 900;
@@ -218,5 +218,31 @@ ul {
             margin: 40px 40px;
             width: 520px;
         }
+    }
+}
+
+.instrutores {
+    background-color: #212121;
+    margin-top: 50px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+
+    h1 {
+        font-size: 48px;
+        text-align: center;
+        margin-top: 10px;
+
+        span {
+            color: #E65100;
+        }
+    }
+
+    h2 {
+        font-size: 26px;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 50px;
+        text-transform: uppercase;
     }
 }

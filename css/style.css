@@ -164,3 +164,59 @@ ul {
     width: 1500px;
     height: 100%;
 }
+
+.valores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+    h1 {
+        text-align: center;
+        font-size: 48px;
+
+        span {
+            color: #E65100;
+        }
+    }
+
+    h3 {
+        text-align: center;
+        margin-top: 25px;
+        color: #E65100;
+        font-size: 20px;
+        font-weight: 900;
+        font-style: italic;
+    }
+
+    .valores-card {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 55px;
+        margin-left: 100px;
+        margin-right: 100px;
+
+        h2 {
+            font-size: 48px;
+            font-weight: 400;
+        }
+
+        p {
+            margin-top: 10px;
+            font-size: 15px;
+        }
+
+        .evolution-card,
+        .education-card,
+        .inovation-card,
+        .superation-card,
+        .community-card {
+            border: 1px solid rgba(183, 149, 149, 0.5);
+            border-radius: 15px;
+            padding: 20px 20px;
+            margin: 40px 40px;
+            width: 520px;
+        }
+    }
+}

@@ -64,10 +64,14 @@ ul {
     font-weight: 500;
     font-size: 72px;
     text-transform: uppercase;
+    animation: slideInFromLeft 0.8s ease-out 0.4s forwards;
+    opacity: 0;
 }
 
 .banner-content img {
     margin-right: 200px;
+    animation: slideInFromLeft 0.8s ease-out 0.6s forwards;
+    opacity: 0;
 }
 
 .banner-content a {
@@ -83,6 +87,8 @@ ul {
     font-size: 32px;
     font-weight: 400;
     border-radius: 10px;
+    animation: slideInFromLeft 0.8s ease-out 0.4s forwards;
+    opacity: 0;
 }
 
 .banner-information {
@@ -97,6 +103,8 @@ ul {
     position: absolute;
     top: 615px;
     margin-left: 220px;
+    animation: slideInFromLeft 0.8s ease-out 0.4s forwards;
+    opacity: 0;
 }
 
 .banner-information h2 {

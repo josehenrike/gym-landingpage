@@ -272,7 +272,15 @@ ul {
     margin-top: 50px;
     color: #fff;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    /* Adicione isso */
+    align-items: center;
+    /* Centraliza o conteúdo */
+    padding-bottom: 50px;
+    /* Espaço na parte inferior */
+}
+
+.instrutores-title {
 
     h1 {
         font-size: 48px;
@@ -291,4 +299,34 @@ ul {
         margin-top: 50px;
         text-transform: uppercase;
     }
+}
+
+.instrutores-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    max-width: 1200px;
+    margin-top: 70px;
+}
+
+.instrutor-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    text-align: center;
+}
+
+.instrutor-card img {
+    border-radius: 15px;
+}
+
+.instrutor-card h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.instrutor-card p {
+    font-size: 16px;
 }
